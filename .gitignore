@@ -1,0 +1,14 @@
+# Fichiers sensibles
+wp-config.php
+.env
+
+# Dossiers générés automatiquement
+wp-content/uploads/
+wp-content/cache/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
