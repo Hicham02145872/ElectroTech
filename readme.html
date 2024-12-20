@@ -1,95 +1,78 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>README - ElectroTech</title>
-</head>
-<body>
+# ElectroTech - E-commerce WordPress
 
-    <header>
-        <h1>ElectroTech - E-commerce WordPress</h1>
-        <p>Bienvenue dans le projet <strong>ElectroTech</strong>, un site e-commerce moderne construit avec WordPress pour vendre des produits électroniques.</p>
-    </header>
+Bienvenue dans le projet *ElectroTech*, un site e-commerce moderne construit avec WordPress pour vendre des produits électroniques.
 
-    <section>
-        <h2>Fonctionnalités principales</h2>
-        <ul>
-            <li>Design responsive et convivial.</li>
-            <li>Gestion des produits, commandes, et clients.</li>
-            <li>Intégration avec WooCommerce pour les paiements sécurisés.</li>
-            <li>Compatible avec les extensions populaires pour SEO, sécurité, et optimisation.</li>
-        </ul>
-    </section>
+---
 
-    <section>
-        <h2>Prérequis</h2>
-        <p>Avant de commencer, assurez-vous d'avoir les éléments suivants :</p>
-        <ul>
-            <li>Un serveur web (Apache ou Nginx).</li>
-            <li>PHP version 7.4 ou plus récente.</li>
-            <li>MySQL 5.7 ou MariaDB 10.3 ou plus récente.</li>
-            <li>Accès à un outil FTP ou cPanel pour gérer les fichiers.</li>
-            <li><a href="https://wordpress.org/" target="_blank">WordPress</a> installé sur votre serveur.</li>
-        </ul>
-    </section>
+## Fonctionnalités principales
 
-    <section>
-        <h2>Installation</h2>
+- Design responsive et convivial.
+- Gestion des produits, commandes, et clients.
+- Intégration avec WooCommerce pour les paiements sécurisés.
+- Compatible avec les extensions populaires pour SEO, sécurité, et optimisation.
 
-        <h3>Étape 1 : Télécharger les fichiers</h3>
-        <p>1. Clonez le projet depuis GitHub :</p>
-        <pre><code>git clone https://github.com/Hicham02145872/ElecrtoTeck.git</code></pre>
-        <p>2. Déplacez les fichiers dans le répertoire de votre serveur web. Exemple :</p>
-        <ul>
-            <li>XAMPP : C:\xampp\htdocs\electroTech</li>
-            <li>Linux (Apache) : /var/www/html/electroTech</li>
-        </ul>
+---
 
-        <h3>Étape 2 : Configurer la base de données</h3>
-        <p>1. Créez une base de données MySQL pour WordPress. Voici un exemple de configuration :</p>
-        <ul>
-            <li><strong>Nom de la base de données</strong> : <code>electro_tech_db</code></li>
-            <li><strong>Utilisateur MySQL</strong> : <code>root</code> (ou votre utilisateur MySQL)</li>
-            <li><strong>Mot de passe</strong> : <code>votre_mot_de_passe_mysql</code></li>
-        </ul>
-        <p>2. Mettez à jour le fichier <code>wp-config.php</code> avec les informations de votre base de données. Ouvrez le fichier <code>wp-config.php</code> situé à la racine de votre installation WordPress et modifiez les lignes suivantes :</p>
-        <pre><code>
-define( 'DB_NAME', 'wp' );
-define( 'DB_USER', 'root' ); 
-define( 'DB_PASSWORD', '' ); // vide
-define( 'DB_HOST', 'localhost' ); // ou 127.0.0.1
-        </code></pre>
-        <p>3. Sauvegardez les modifications et fermez le fichier.</p>
-        <p>4. Si vous utilisez un outil de gestion de base de données comme phpMyAdmin, vous pouvez créer la base de données via l'interface graphique. Assurez-vous que la base de données est bien vide au moment de l'installation de WordPress.</p>
+## Prérequis
 
-        <h3>Étape 3 : Installer WordPress</h3>
-        <p>1. Accédez à l'URL de votre site dans un navigateur web. Selon la configuration de votre serveur local, l'URL sera généralement l'une des suivantes :</p>
-        <ul>
-            <li>Pour un serveur local avec XAMPP :  
-                <code>http://localhost/electroTech</code></li>
-            <li>Pour un serveur distant :  
-                On n'a pas hébergé le site.</li>
-        </ul>
-        <p>2. Une fois que vous avez accédé à l'URL, WordPress vous redirigera vers la page de connexion. Utilisez vos identifiants administrateur existants pour vous connecter :</p>
-        <ul>
-            <li><strong>Nom d'utilisateur</strong> : <code>admin</code> (ou votre nom d'utilisateur WordPress existant)</li>
-            <li><strong>Mot de passe</strong> : <code>Hicham2334</code> (votre mot de passe administrateur)</li>
-            <li><strong>Email</strong> : hichamaltit91@gmail.com (pour admin)</li>
-        </ul>
+Avant de commencer, assurez-vous d'avoir les éléments suivants :
 
-        <p>3. Une fois l'installation terminée, vous pourrez vous connecter à votre tableau de bord WordPress en utilisant les identifiants d'administrateur que vous avez choisis.</p>
-        <p>4. Installez et activez les extensions nécessaires à votre site, comme WooCommerce pour la gestion des produits, commandes et paiements.</p>
-        <ul>
-            <li>Pour installer WooCommerce, allez dans l'onglet <strong>Extensions</strong> > <strong>Ajouter</strong> et recherchez <strong>WooCommerce</strong>.</li>
-            <li>Cliquez sur <strong>Installer</strong> puis <strong>Activer</strong>.</li>
-        </ul>
-        <p>Après cette étape, vous aurez un site WordPress fonctionnel prêt à l'emploi avec WooCommerce installé pour gérer votre e-commerce.</p>
-    </section>
+- Un serveur web (Apache ou Nginx).
+- PHP version 7.4 ou plus récente.
+- MySQL 5.7 ou MariaDB 10.3 ou plus récente.
+- Accès à un outil FTP ou cPanel pour gérer les fichiers.
+- [WordPress](https://wordpress.org/) installé sur votre serveur.
 
-    <footer>
-        <p>--J'espère que notre travail te plaît 😊--</p>
-    </footer>
+---
 
-</body>
-</html>
+## Installation
+
+### Étape 1 : Télécharger les fichiers
+1. Clonez le projet depuis GitHub :  
+   bash
+   git clone https://github.com/Hicham02145872/ElecrtoTeck.git
+2. Déplacez les fichiers dans le répertoire de votre serveur web. Exemple :
+	XAMPP : C:\xampp\htdocs\electroTech
+	Linux (Apache) : /var/www/html/electroTech
+
+### Étape 2 : Configurer la base de données
+
+1. Créez une base de données MySQL pour WordPress. Voici un exemple de configuration :
+   - **Nom de la base de données** : `electro_tech_db`
+   - **Utilisateur MySQL** : `root` (ou votre utilisateur MySQL)
+   - **Mot de passe** : `votre_mot_de_passe_mysql`
+
+2. Mettez à jour le fichier `wp-config.php` avec les informations de votre base de données. Ouvrez le fichier `wp-config.php` situé à la racine de votre installation WordPress et modifiez les lignes suivantes :
+
+   php
+   define( 'DB_NAME', 'wp' );
+   define( 'DB_USER', 'root' ); 
+   define( 'DB_PASSWORD', '' ); // vide
+   define( 'DB_HOST', 'localhost' ); // ou 127.0.0.1
+
+3. Sauvegardez les modifications et fermez le fichier.
+
+4. Si vous utilisez un outil de gestion de base de données comme phpMyAdmin, vous pouvez créer la base de données via l'interface graphique. Assurez-vous que la base de données est bien vide au moment de l'installation de WordPress.
+
+### Étape 3 : Installer WordPress
+
+1. Accédez à l'URL de votre site dans un navigateur web. Selon la configuration de votre serveur local, l'URL sera généralement l'une des suivantes :
+   - Pour un serveur local avec XAMPP :  
+     http://localhost/electroTech
+   - Pour un serveur distant :  
+     On n'a pas hébergé le site.
+
+2. Une fois que vous avez accédé à l'URL, WordPress vous redirigera vers la page de connexion. Utilisez vos identifiants administrateur existants pour vous connecter :
+   - *Nom d'utilisateur* : admin (ou votre nom d'utilisateur WordPress existant)
+   - *Mot de passe* : Hicham2334 (votre mot de passe administrateur)
+   - *Email* : hichamaltit91@gmail.com // pour admin
+
+3. Une fois l'installation terminée, vous pourrez vous connecter à votre tableau de bord WordPress en utilisant les identifiants d'administrateur que vous avez choisis.
+
+4. Installez et activez les extensions nécessaires à votre site, comme WooCommerce pour la gestion des produits, commandes et paiements.
+   - Pour installer WooCommerce, allez dans l'onglet *Extensions* > *Ajouter* et recherchez *WooCommerce*.
+   - Cliquez sur *Installer* puis *Activer*.
+
+Après cette étape, vous aurez un site WordPress fonctionnel prêt à l'emploi avec WooCommerce installé pour gérer votre e-commerce.
+
+--J'espère que notre travail te plaît 😊--
